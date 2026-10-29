@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kopi Senja Nusantara</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR: menu untuk berpindah ke bagian halaman -->
+    <header>
+        <nav>
+            <h1>Kopi Senja</h1>
+            <div class="menu">
+                <a href="#beranda">Beranda</a>
+                <a href="#tentang">Tentang</a>
+                <a href="#menu">Menu</a>
+                <a href="#galeri">Galeri</a>
+                <a href="#kontak">Kontak</a>
+            </div>
+        </nav>
+    </header> 
+
+
+    <main>
+        <!-- BERANDA / HERO -->
+        <section id="beranda" class="hero">
+            <div>
+                <h2>Selamat Datang di Kopi Senja Nusantara</h2>
+                <p>Nikmati hangatnya kopi pilihan dan lezatnya hidangan yang menemani setiap momen. Dari sajian khas Nusantara hingga camilan favorit, semuanya hadir untuk membuat waktu santaimu lebih berkesan</p>
+                <a class="tombol" href="#menu">Lihat Menu</a>
+            </div>
+            <img src="Mybini.png" alt="Secangkir kopi di meja kedai">
+        </section>
+
+        <!-- TENTANG KAMI -->
+        <section id="tentang" class="bagian">
+            <h2>Tentang Kami</h2>
+            <p>Kopi Senja Nusantara adalah kedai kopi sederhana yang menyajikan kopi,
+            minuman segar, dan makanan untuk menemani waktu santai.</p>
+            <img class="foto-tentang" src="Kopi_Senja_Nusantara.png" alt="Suasana nyaman di kedai kopi">
+        </section>
+
+        <!-- MENU: 4 MINUMAN -->
+        <section id="menu" class="bagian">
+            <h2>Menu Minuman</h2>
+            <div class="kartu-menu">
+                <article class="kartu">
+                    <figure>
+                        <img src="susu gula aren.jpg" alt="Kopi susu gula aren">
+                        <figcaption>Kopi Susu Gula Aren</figcaption>
+                    </figure>
+                    <p>Rp18.000</p>
+                </article>
+
+                <article class="kartu">
+                    <figure>
+                        <img src="kopi hitam.jpg" alt="Es kopi hitam">
+                        <figcaption>Es Kopi Hitam</figcaption>
+                    </figure>
+                    <p>Rp15.000</p>
+                </article>
+
+                <article class="kartu">
+                    <figure>
+                        <img src="303ee2b4-b591-41cb-a2c0-29b8d57ced8d.jpg" alt="Matcha latte">
+                        <figcaption>Matcha Latte</figcaption>
+                    </figure>
+                    <p>Rp20.000</p>
+                </article>
+
+                <article class="kartu">
+                    <figure>
+                        <img src="Teh tarik.jpg" alt="Teh tarik dingin">
+                        <figcaption>Teh Tarik</figcaption>
+                    </figure>
+                    <p>Rp12.000</p>
+                </article>
+            </div>
+
+            <!-- MENU: 6 MAKANAN -->
+            <h2 class="judul-makanan">Menu Makanan</h2>
+            <div class="kartu-menu">
+                <article class="kartu">
+                    <figure>
+                        <img src="Nasi goreng.jpg" alt="Nasi goreng kampung">
+                        <figcaption>Nasi Goreng Kampung</figcaption>
+                    </figure>
+                    <p>Rp22.000</p>
+                </article>
+
+                <article class="kartu">
+                    <figure>
+                        <img src="mie goreng.png" alt="Mi goreng Jawa">
+                        <figcaption>Mi Goreng Jawa</figcaption>
+                    </figure>
+                    <p>Rp20.000</p>
+                </article>
+
+        
+
+                <article class="kartu">
+                    <figure>
+                        <img src="pisang goreng.jpg" alt="Pisang goreng">
+                        <figcaption>Pisang Goreng</figcaption>
+                    </figure>
+                    <p>Rp12.000</p>
+                </article>
+
+                <article class="kartu">
+                    <figure>
+                        <img src="roti bakar.jpg" alt="Roti bakar cokelat">
+                        <figcaption>Roti Bakar Cokelat</figcaption>
+                    </figure>
+                    <p>Rp10.000</p>
+                </article>
+
+            
+            </div>
+        </section>
+
+        <!-- GALERI FOTO -->
+    
+
+        <!-- KONTAK DAN FORMULIR -->
+        <section id="kontak" class="bagian">
+            <h2>Hubungi Kami</h2>
+            <p>Alamat: Jl. MMM No. 10, Depok</p>
+            <p>Telepon: +62 856 7149 158</p>
+            <p>Email: rizky.maulana01812@gmail.com</p>
+
+            <form action="#" method="get">
+                <label for="nama">Nama</label>
+                <input type="text" id="nama" name="nama" placeholder="Nama kamu">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Email kamu">
+
+                <label for="pesan">Pesan</label>
+                <textarea id="pesan" name="pesan" rows="4" placeholder="Tulis pesan di sini"></textarea>
+
+                <label for="kunjungan">Rencana kunjungan</label>
+                <select id="kunjungan" name="kunjungan">
+                    <option>Hari ini</option>
+                    <option>Besok</option>
+                    <option>Minggu depan</option>
+                    <option>Bulan depan</option>
+                </select>
+
+                <button type="submit">Kirim</button>
+            </form>
+            <p class="catatan">Catatan: formulir ini hanya contoh dan belum mengirim pesan ke kedai.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Kopi Senja Nusantara</p>
+    </footer>
+</body>
+</html>
